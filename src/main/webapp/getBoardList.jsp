@@ -11,10 +11,10 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>글 목록</title>
-</head>
-<body>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>글 목록</title>
+	</head>
+	<body>
 	<center>
 		<h1>게시글 목록</h1>
 		<h3>${userName }님!
