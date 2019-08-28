@@ -14,7 +14,7 @@ public class JDBCUtil {
 				 * String user = "Hong"; String pw = "kimids1@"; String url =
 				 * "jdbc:oracle:thin:@127.0.0.1:3306";
 				 */
-                Class.forName("com.mysql.cj.jdbc.Driver");        
+                Class.forName("com.mysql.jdbc.Driver");        
                 String url = "jdbc:mysql://127.0.0.1/boardDB?serverTimezone=UTC";
                 
                 conn = DriverManager.getConnection(url, "Hong", "kimids1@");
