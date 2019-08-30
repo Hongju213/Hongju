@@ -9,8 +9,8 @@
 	<center>
 		<h1>로그인</h1>
 		<hr>
-		<form action="login.do" metiod="post">
-			<table border="1" cellpaddiong="0" cellspacing="0">
+		<form action="login.do" method="post">
+			<table border="1" cellpadding="0" cellspacing="0">
 				<tr>
 					<td bgcolor="green">아이디</td>
 					<td><input type="text" name="id" value="${user.id }" /></td>
