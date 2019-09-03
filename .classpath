@@ -35,17 +35,66 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/ojdbc8.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/ons.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/oraclepki.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/orai18n.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/osdt_cert.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/osdt_core.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/simplefan.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/ucp.jar"/>
-	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/xdb6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hoyeong/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hoyeong/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/ojdbc8.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/ons.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/oraclepki.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/orai18n.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/osdt_cert.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/osdt_core.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/simplefan.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/ucp.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Board/ojdbc8-full/xdb6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hoyeong/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hoyeong/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/hoyeong/.m2/repository/oracle/ojdbc6/11.2.0.3/ojdbc6-11.1.0.7.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
