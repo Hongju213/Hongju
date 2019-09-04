@@ -1,0 +1,20 @@
+# getBoard.jsp
+message.user.board.title=글 상세
+message.user.board.table.title=제목
+message.user.board.table.writer=작성자
+message.user.board.table.content=내용
+message.user.board.table.date=등록일
+message.user.board.table.cnt=조회수
+message.board.list.link.insertBoard=글 등록
+message.board.list.link.deleteBoard=글 삭제
+message.board.list.link.BoardList=목록
+
+message.user.login.joinBtn=회원가입
+
+message.user.join.title=회원가입
+message.user.join.id=아이디
+message.user.join.password=비밀번호
+message.user.join.joinBtn=가입
+
+message.user.join.name=이름
+message.user.join.role=권한
