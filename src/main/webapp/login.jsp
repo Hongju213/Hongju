@@ -9,10 +9,7 @@
 <body>
 	<center>
 		<h1><spring:message code="message.user.login.title"/></h1>
-		<a href="login.do?lang=en">
-			<spring:message code="message.user.login.language.en"/></a>&nbsp;&nbsp;
-		<a href="login.do?lang=ko">
-			<spring:message code="message.user.login.language.ko"/></a>
+		
 		
 		<hr>
 		<form action="login.do" method="post">
@@ -26,11 +23,14 @@
 					<td><input type="password" name="password" value="${user.password }"/></td>
 				</tr>
 				<tr>
-					<td colspan="2" align="center"><input type="submit"
-						value="<spring:message code="message.user.login.loginBtn"/>" /></td>
-				</tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="<spring:message code="message.user.login.loginBtn"/>" />
+						<input type="button" value="가입" onClick="location.href='join.jsp'"/>
+					</td>
+				</tr>		
 			</table>
 		</form>
+		
 		<hr>
 	</center>
 </body>

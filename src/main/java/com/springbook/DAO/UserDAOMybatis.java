@@ -23,4 +23,9 @@ public class UserDAOMybatis extends SqlSessionDaoSupport{
 		return (UserVO) getSqlSession().selectOne("UserDAO.getUser", vo);
 	}
 	
+	public void insetUser(UserVO vo) {
+		System.out.println("===> Mybatis로 setUser() 기능 처리");
+		getSqlSession().insert("UserDAO.insertUser", vo);
+	}
+	
 }

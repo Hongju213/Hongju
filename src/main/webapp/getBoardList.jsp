@@ -12,7 +12,7 @@
 	<body>
 	<center>
 		<h1><spring:message code="message.board.list.mainTitle"/></h1>
-		<h3>${userName }<spring:message code="message.board.list.welcomeMsg"/><a href="logout.do">Log-out</a>
+		<h3>${userName }<spring:message code="message.board.list.welcomeMsg"/><a href="     logout.do">Log-out</a>
 		</h3>
 		<!-- 검색 시작 -->
 		<form action="getBoardList.do" method="post">

@@ -17,6 +17,12 @@
 		WHERE ID = #{id} AND PASSWORD= #{password}
 		]]>
 	</select>
-
+	
+	<insert id="insertUser" parameterType="user">
+	<![CDATA[
+	INSERT INTO USERS(ID, PASSWORD, NAME, ROLE, GENDER, BIRTH)
+	VALUES(#{id}, #{password}, #{name}, '사용자', #{gender}, str_to_date(#{birth}, '%Y-%m-%d'))
+	]]>
+	</insert>
 	
 </mapper>
