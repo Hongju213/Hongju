@@ -6,6 +6,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>회원가입</title>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src ="join.js"></script>
 </head>
 <body>
 	<center>
@@ -13,25 +15,24 @@
 		
 		
 		<hr>
-		<form action="join.do" method="post">
 			<table border="1" cellpadding="0" cellspacing="0">
 				<tr>
-					<td bgcolor="green">아이디</td>
-					<td><input type="text" name="id"/></td>
+					<td> <label for ="id">아이디</label></td>
+					<td> <input type ="text" id="id" name="id"></td>
 				</tr>
 				<tr>
-					<td bgcolor="green">패스워드</td>
-					<td><input type="password" name="password"/></td>
+					<td> <label for ="id">비밀번호</label></td>
+					<td> <input type ="password" id="pw" name="pw"></td>
 				</tr>
 				<tr>
-					<td bgcolor="green">이름</td>
-					<td><input type="text" name="name"/></td>
+					<td> <label for ="id">이름</label></td>
+					<td> <input type ="text" id="name" name="name"></td>
 				</tr>
 				<tr>
 					<td bgcolor="green">성별</td>
-					<td><input type="radio" name="gender" id="male" value="m" checked/>
+					<td><input type="radio" name="gender" id="gender" value="m" checked/>
 						<label for="g">남자</label>
-						<input type="radio" name="gender" id="female" value="f"/>
+						<input type="radio" name="gender" id="gender" value="f"/>
 						<label for="g">여자</label>
 					</td>
 				</tr>
@@ -43,11 +44,11 @@
 											
 				<tr>
 					<td colspan="2" align="center">
-						<input type="submit" value="가입" />
+						<input type="button" id="btnJoin" value="가입">
 					</td>
 				</tr>	
 			</table>
-		</form>
+		
 		<hr>
 	</center>
 </body>

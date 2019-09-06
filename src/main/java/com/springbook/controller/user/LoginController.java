@@ -1,13 +1,16 @@
 package com.springbook.controller.user;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.springbook.DAO.UserDAOMybatis;
 import com.springbook.Service.UserService;
@@ -27,22 +30,22 @@ public class LoginController {
 		return "login.jsp";
 	}
 	
+	
 	@RequestMapping(value="/login.do", method=RequestMethod.POST)
-     public String login(UserVO vo, UserDAOMybatis userDAO, HttpSession session) {
-	
-		/* public String login(UserVO vo, Model model) { */	
-		
-		// 예외처리
-		if(vo.getId() == null || vo.getId().equals("")) {
-			throw new IllegalArgumentException("아이디는 반드시 입력하셔야 합니다.");
-		}
-	
+	@ResponseBody 
+     public Map<String, Object> login(UserVO vo, UserDAOMybatis userDAO, HttpSession session) {
+		Map<String, Object> map = new HashMap<String, Object>();
+
 		UserVO user = userService.getUser(vo);
 		System.out.println("로그인 인증 처리...");
+		
 		if(user != null) { 
 			session.setAttribute("userName", user.getName());
-			return "getBoardList.do";
+			map.put("res", "success");
 		}
-		else return "login.jsp";
+		else {
+			map.put("res", "fail");
+		}
+		return map;
 	}
 }

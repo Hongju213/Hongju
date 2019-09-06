@@ -42,4 +42,13 @@
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
   
+
+  <display-name>
+    BoardList</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+  
+  
+  
 </web-app>
